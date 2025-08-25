@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Label } from '@/components/ui/label'
 import { useToast } from '@/hooks/use-toast'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -57,10 +58,22 @@ const Contact = () => {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission
     try {
-      // In a real application, you would send this to your backend
-      await new Promise(resolve => setTimeout(resolve, 1000))
+      // Initialize EmailJS with your public key
+      emailjs.init('KgpRw_6vRSMzpF3x1')
+      
+      // Send email using EmailJS
+      await emailjs.send(
+        'service_o3e8lxc', // Service ID
+        'template_zbekzkx', // Template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          to_name: 'Kiran Kamble'
+        }
+      )
       
       toast({
         title: "Message Sent Successfully!",
@@ -74,6 +87,7 @@ const Contact = () => {
         message: ''
       })
     } catch (error) {
+      console.error('EmailJS Error:', error)
       toast({
         title: "Error",
         description: "Failed to send message. Please try again.",
