@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { ChevronDown, Download, Mail, Github, Linkedin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import kiranPortrait from '@/assets/kiran-portrait.jpg'
+import kiranPortrait from '@/assets/kiran-profile.png'
 import techBg from '@/assets/tech-bg.jpg'
 
 const Hero = () => {
