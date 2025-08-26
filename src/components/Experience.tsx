@@ -18,6 +18,21 @@ const Experience = () => {
         "Gained hands-on experience with medical imaging and computer vision"
       ],
       skills: ["Python", "Machine Learning", "Computer Vision", "Data Preprocessing", "Model Deployment"]
+    },
+    {
+      role: "Cloud Computing Intern (AZ-900)",
+      company: "KasNet Technologies Pvt. Ltd.",
+      duration: "Jan 2024 - Feb 2024",
+      location: "Remote",
+      type: "Internship",
+      achievements: [
+        "Completed Microsoft Azure Fundamentals (AZ-900) certification program",
+        "Gained comprehensive understanding of cloud computing concepts and principles",
+        "Learned cloud security and privacy best practices in Azure environment",
+        "Explored various Azure services and solutions for enterprise applications",
+        "Mastered different cloud deployment models and their use cases"
+      ],
+      skills: ["Microsoft Azure", "Cloud Computing", "Cloud Security", "Azure Services", "Cloud Deployment Models"]
     }
   ]
 
