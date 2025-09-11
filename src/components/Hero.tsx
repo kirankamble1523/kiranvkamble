@@ -104,6 +104,15 @@ const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               Contact Me
             </Button>
+            <Button 
+              variant="secondary" 
+              size="lg"
+              onClick={() => window.open('/Kiran-Kamble-Resume.pdf', '_blank')}
+              className="transition-all duration-300 hover:scale-105"
+            >
+              <Download className="mr-2 h-5 w-5" />
+              Resume
+            </Button>
           </motion.div>
 
           {/* Social Links */}
