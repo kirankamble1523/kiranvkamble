@@ -3,8 +3,19 @@ import { ChevronDown, Download, Mail, Github, Linkedin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import kiranPortrait from '@/assets/kiran-profile.png'
 import techBg from '@/assets/tech-bg.jpg'
+import { useState, useEffect } from 'react'
 
 const Hero = () => {
+  const roles = ['AI & ML Engineer', 'Software Developer', 'Web Developer', 'Python Developer']
+  const [currentRoleIndex, setCurrentRoleIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentRoleIndex((prevIndex) => (prevIndex + 1) % roles.length)
+    }, 3000)
+
+    return () => clearInterval(interval)
+  }, [])
   const scrollToSection = (href: string) => {
     const element = document.querySelector(href)
     if (element) {
@@ -66,7 +77,17 @@ const Hero = () => {
               Kiran Vishnu Kamble
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-              AI & ML Engineer | Software Developer | Full-Stack Enthusiast
+              <span>I am </span>
+              <motion.span
+                key={currentRoleIndex}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.5 }}
+                className="text-primary font-semibold"
+              >
+                {roles[currentRoleIndex]}
+              </motion.span>
             </p>
           </motion.div>
 
