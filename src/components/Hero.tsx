@@ -107,7 +107,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={() => window.open('/Kiran-Kamble-Resume.pdf', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1xrT8TdEULmLNBdh9BYRC5aMm8pxtQLoM/view?usp=drivesdk', '_blank')}
               className="group relative overflow-hidden border-2 border-primary/50 bg-gradient-to-r from-primary/10 to-accent/10 hover:from-primary/20 hover:to-accent/20 text-primary hover:text-white transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(var(--primary),0.3)]"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
