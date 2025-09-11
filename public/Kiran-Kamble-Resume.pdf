@@ -18,11 +18,13 @@ endobj
 <<
 /Type /Page
 /Parent 2 0 R
-/MediaBox [0 0 612 792]
+/MediaBox [0 0 595 842]
 /Contents 4 0 R
 /Resources <<
 /Font <<
 /F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
 >>
 >>
 >>
@@ -30,19 +32,140 @@ endobj
 
 4 0 obj
 <<
-/Length 200
+/Length 2800
 >>
 stream
 BT
-/F1 24 Tf
-100 700 Td
+/F1 20 Tf
+50 800 Td
 (KIRAN KAMBLE) Tj
-0 -30 Td
-/F1 16 Tf
+/F2 14 Tf
+0 -25 Td
 (DEVELOPER) Tj
-0 -50 Td
-/F1 12 Tf
-(Please replace this with your actual resume PDF) Tj
+/F3 10 Tf
+0 -20 Td
+(Pune | kirankamble.co.in03@gmail.com | LinkedIn | Github | Website | 9049239910) Tj
+
+0 -40 Td
+/F2 12 Tf
+(SUMMARY) Tj
+0 -20 Td
+/F3 10 Tf
+(Highly motivated Software Developer skilled in building scalable full-stack applications using Flask) Tj
+0 -12 Td
+(and Django. Experienced in developing Academic projects and internships, working in Agile teams,) Tj
+0 -12 Td
+(and integrating AI solutions using AI tools. Quick learner with strong problem-solving and debugging) Tj
+0 -12 Td
+(skills.) Tj
+
+0 -30 Td
+/F2 12 Tf
+(PROFESSIONAL SKILLS) Tj
+0 -20 Td
+/F3 10 Tf
+(Communication        Problem Solving) Tj
+0 -12 Td
+(Team-Work           Time managing) Tj
+
+0 -25 Td
+/F2 12 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F3 10 Tf
+(Python, Flask, Jinja, Django, MySQL, HTML, CSS,) Tj
+0 -12 Td
+(Fast-API, DSA, REST APIs, Git, Agile, WebSocket,) Tj
+0 -12 Td
+(Postman) Tj
+
+0 -30 Td
+/F2 12 Tf
+(PROJECTS) Tj
+0 -20 Td
+/F2 11 Tf
+(AI Assistance) Tj
+/F3 8 Tf
+420 0 Td
+(Aug 2024-june 2025) Tj
+-420 -15 Td
+/F3 10 Tf
+(Developed a Voice-enabled virtual Assistance to support AIML Department) Tj
+0 -12 Td
+(Students with academic resources and career guidance. With speech to text) Tj
+0 -12 Td
+(pyttsx3 for smooth verbal interaction. Used Tkinter for interactive GUI.) Tj
+
+0 -20 Td
+/F2 11 Tf
+(Task Manager Web App) Tj
+/F3 8 Tf
+350 0 Td
+(Jun 2025) Tj
+-350 -15 Td
+/F3 10 Tf
+(Developed a Full-stack task management system) Tj
+0 -12 Td
+(with user authentication and CRUD functionalities.) Tj
+0 -12 Td
+(Used Flask for routing and redirecting to multiple) Tj
+0 -12 Td
+(pages and HTML/CSS for attractive interface.) Tj
+
+0 -30 Td
+/F2 12 Tf
+(EXPERIENCE) Tj
+0 -20 Td
+/F2 11 Tf
+(Project Engineer .) Tj
+/F3 8 Tf
+350 0 Td
+(Sep 2023 - Oct 2023) Tj
+-350 -15 Td
+/F3 10 Tf
+(Machine Learning Intern \(Remote\).) Tj
+0 -12 Td
+(Completed 2-month mentorship program focused on core Machine) Tj
+0 -12 Td
+(Learning concepts and real-world project like Brain Tumor Detection using) Tj
+0 -12 Td
+(supervised learning and gained exposure to end-to-end ML pipeline, model) Tj
+0 -12 Td
+(tuning and data processing.) Tj
+
+0 -30 Td
+/F2 12 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F2 11 Tf
+(Bachelor of Engineering in Artificial Intelligence and Machine Learning) Tj
+/F3 8 Tf
+200 0 Td
+(Dec 2021 - June 2025) Tj
+-200 -15 Td
+/F3 10 Tf
+(Navsahyadri College of Engineering \(NESGI\), PUNE CGPA: 8.1) Tj
+0 -15 Td
+(Ranked in the Top 5 of the class.) Tj
+
+0 -30 Td
+/F2 12 Tf
+(ADDITIONAL INFORMATION) Tj
+0 -15 Td
+/F2 10 Tf
+(Languages: ) Tj
+/F3 10 Tf
+(English, Hindi, Marathi.) Tj
+0 -15 Td
+/F2 10 Tf
+(Certifications & Awards) Tj
+0 -12 Td
+/F3 10 Tf
+(Python Course Completion.) Tj
+0 -12 Td
+(Machine Learning Course.) Tj
+0 -12 Td
+(Ranked in Top 5 of College.) Tj
 ET
 endstream
 endobj
@@ -51,23 +174,41 @@ endobj
 <<
 /Type /Font
 /Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Oblique
+>>
+endobj
+
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
 /BaseFont /Helvetica
 >>
 endobj
 
 xref
-0 6
+0 8
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
 0000000115 00000 n 
 0000000274 00000 n 
-0000000526 00000 n 
+0000003126 00000 n 
+0000003193 00000 n 
+0000003264 00000 n 
 trailer
 <<
-/Size 6
+/Size 8
 /Root 1 0 R
 >>
 startxref
-623
+3323
 %%EOF

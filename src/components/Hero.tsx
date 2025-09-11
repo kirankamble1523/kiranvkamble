@@ -105,13 +105,14 @@ const Hero = () => {
               Contact Me
             </Button>
             <Button 
-              variant="secondary" 
+              variant="outline" 
               size="lg"
               onClick={() => window.open('/Kiran-Kamble-Resume.pdf', '_blank')}
-              className="transition-all duration-300 hover:scale-105"
+              className="group relative overflow-hidden border-2 border-primary/50 bg-gradient-to-r from-primary/10 to-accent/10 hover:from-primary/20 hover:to-accent/20 text-primary hover:text-white transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(var(--primary),0.3)]"
             >
-              <Download className="mr-2 h-5 w-5" />
-              Resume
+              <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <Download className="mr-2 h-5 w-5 relative z-10 group-hover:animate-bounce" />
+              <span className="relative z-10 font-semibold">Download Resume</span>
             </Button>
           </motion.div>
 
