@@ -7,6 +7,20 @@ import { Badge } from '@/components/ui/badge'
 const Portfolio = () => {
   const projects = [
     {
+      title: "Titanic Survival Analysis",
+      description: "A comprehensive data analysis dashboard created with SQL and Power BI to analyze survival patterns of Titanic passengers. Features data cleaning in MySQL Workbench, interactive visualizations, and insights based on age, gender, class, fare, and embarkation points with dynamic decomposition trees and calculated measures.",
+      technologies: ["SQL", "Power BI", "MySQL", "Data Analysis", "Data Visualization", "DAX", "Data Cleaning", "ETL"],
+      github: "https://lnkd.in/d4AKydkH",
+      demo: "https://lnkd.in/d4AKydkH",
+      category: "Data Analytics",
+      highlights: [
+        "Interactive Power BI dashboard with multiple visualizations",
+        "Advanced data cleaning and preprocessing in MySQL",
+        "Dynamic decomposition tree for class-wise analysis",
+        "Key insights: 1st class females had highest survival rate"
+      ]
+    },
+    {
       title: "AI Task Manager Web App",
       description: "A comprehensive task management system built with Flask and SQL that leverages AI for intelligent task prioritization and scheduling. Features CRUD operations, user authentication, and analytics dashboard, resulting in 35% improvement in task completion efficiency.",
       technologies: ["Flask", "Python", "SQL", "HTML/CSS", "AI/ML", "CRUD Operations"],
