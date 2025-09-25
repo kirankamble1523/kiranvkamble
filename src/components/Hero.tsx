@@ -6,7 +6,7 @@ import techBg from '@/assets/tech-bg.jpg'
 import { useState, useEffect } from 'react'
 
 const Hero = () => {
-  const roles = ['AI & ML Engineer', 'Software Developer', 'Web Developer', 'Python Developer']
+  const roles = ['AI & ML Engineer', 'Software Developer', 'Web Developer', 'Python Developer', 'Data Analyst']
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0)
 
   useEffect(() => {
