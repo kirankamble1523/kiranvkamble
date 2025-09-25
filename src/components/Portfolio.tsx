@@ -75,6 +75,20 @@ const Portfolio = () => {
         "Dynamic decomposition tree for class-wise analysis",
         "Key insights: 1st class females had highest survival rate"
       ]
+    },
+    {
+      title: "Prime Video Insights",
+      description: "A dynamic dashboard analyzing Prime Video's content library to uncover streaming trends, genre patterns, and ratings distribution. Explores content evolution from the 1960s to today, revealing insights into what makes Prime Video a global entertainment leader through comprehensive data visualization.",
+      technologies: ["Power BI", "Data Analysis", "Data Visualization", "Entertainment Analytics", "Trend Analysis", "Dashboard Design"],
+      github: "https://github.com/kirankamble1523",
+      demo: "#",
+      category: "Data Analytics", 
+      highlights: [
+        "Genre trends analysis across Comedy, Animation, Documentary",
+        "Content evolution tracking from 1960s to present",
+        "Movies vs TV Shows distribution analysis",
+        "Ratings breakdown for different age demographics"
+      ]
     }
   ]
 
