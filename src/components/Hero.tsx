@@ -98,8 +98,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="max-w-3xl mx-auto text-lg text-muted-foreground leading-relaxed"
           >
-            Recent graduate passionate about transforming data into actionable insights and building 
-            intelligent solutions through software development, machine learning, and comprehensive data analysis.
+            Recent AI & ML Engineering graduate with a passion for crafting intelligent, scalable solutions that merge cutting-edge machine learning with robust software development. I thrive at the intersection of data, design, and development—building web applications, analyzing complex datasets, and engineering smart systems using Python, AI tools and modern frameworks. Whether it's deploying full-stack web platforms, optimizing backend logic, or extracting insights through data analytics, I bring a proactive mindset and a deep curiosity to every project.
           </motion.p>
 
           {/* CTA Buttons */}
