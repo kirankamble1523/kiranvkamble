@@ -98,8 +98,8 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="max-w-3xl mx-auto text-lg text-muted-foreground leading-relaxed"
           >
-            Recent AI & ML Engineering graduate passionate about building intelligent, 
-            scalable solutions that combine cutting-edge machine learning with robust software development.
+            Recent graduate passionate about transforming data into actionable insights and building 
+            intelligent solutions through software development, machine learning, and comprehensive data analysis.
           </motion.p>
 
           {/* CTA Buttons */}
