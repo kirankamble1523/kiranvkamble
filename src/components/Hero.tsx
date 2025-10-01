@@ -124,35 +124,33 @@ const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               Contact Me
             </Button>
-            <div className="flex flex-wrap gap-3 justify-center">
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://drive.google.com/file/d/175YrvCmE8DA3-rNOvBYJe4_iugEoDBZg/view?usp=drivesdk', '_blank')}
-                className="group border-primary/50 hover:bg-primary/10 transition-all duration-300 hover:scale-105"
-              >
-                <FileText className="mr-2 h-4 w-4" />
-                <span className="text-sm">Python Developer</span>
-              </Button>
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://drive.google.com/file/d/1JRv65jXmNIq16_y6Ajpk73Ic7uemKU80/view?usp=drivesdk', '_blank')}
-                className="group border-primary/50 hover:bg-primary/10 transition-all duration-300 hover:scale-105"
-              >
-                <FileText className="mr-2 h-4 w-4" />
-                <span className="text-sm">Software Developer</span>
-              </Button>
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://drive.google.com/file/d/1pAN_nknMKnk0nwPwgYMkrcwORbBbEAZS/view?usp=drivesdk', '_blank')}
-                className="group border-primary/50 hover:bg-primary/10 transition-all duration-300 hover:scale-105"
-              >
-                <FileText className="mr-2 h-4 w-4" />
-                <span className="text-sm">Data Analyst</span>
-              </Button>
-            </div>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://drive.google.com/file/d/175YrvCmE8DA3-rNOvBYJe4_iugEoDBZg/view?usp=drivesdk', '_blank')}
+              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              <FileText className="mr-2 h-5 w-5" />
+              Python Developer
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://drive.google.com/file/d/1JRv65jXmNIq16_y6Ajpk73Ic7uemKU80/view?usp=drivesdk', '_blank')}
+              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              <FileText className="mr-2 h-5 w-5" />
+              Software Developer
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://drive.google.com/file/d/1pAN_nknMKnk0nwPwgYMkrcwORbBbEAZS/view?usp=drivesdk', '_blank')}
+              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              <FileText className="mr-2 h-5 w-5" />
+              Data Analyst
+            </Button>
           </motion.div>
 
           {/* Social Links */}
