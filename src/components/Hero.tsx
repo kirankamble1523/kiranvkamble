@@ -106,10 +106,10 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex flex-col sm:flex-row gap-3 justify-center items-center"
           >
             <Button 
-              size="lg" 
+              size="default" 
               onClick={() => scrollToSection('#portfolio')}
               className="bg-hero-gradient hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
@@ -117,38 +117,38 @@ const Hero = () => {
             </Button>
             <Button 
               variant="outline" 
-              size="lg"
+              size="default"
               onClick={() => scrollToSection('#contact')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              <Mail className="mr-2 h-5 w-5" />
+              <Mail className="mr-2 h-4 w-4" />
               Contact Me
             </Button>
             <Button 
               variant="outline" 
-              size="lg"
+              size="default"
               onClick={() => window.open('https://drive.google.com/file/d/175YrvCmE8DA3-rNOvBYJe4_iugEoDBZg/view?usp=drivesdk', '_blank')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              <FileText className="mr-2 h-5 w-5" />
+              <FileText className="mr-2 h-4 w-4" />
               Python Developer
             </Button>
             <Button 
               variant="outline" 
-              size="lg"
+              size="default"
               onClick={() => window.open('https://drive.google.com/file/d/1JRv65jXmNIq16_y6Ajpk73Ic7uemKU80/view?usp=drivesdk', '_blank')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              <FileText className="mr-2 h-5 w-5" />
+              <FileText className="mr-2 h-4 w-4" />
               Software Developer
             </Button>
             <Button 
               variant="outline" 
-              size="lg"
+              size="default"
               onClick={() => window.open('https://drive.google.com/file/d/1pAN_nknMKnk0nwPwgYMkrcwORbBbEAZS/view?usp=drivesdk', '_blank')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              <FileText className="mr-2 h-5 w-5" />
+              <FileText className="mr-2 h-4 w-4" />
               Data Analyst
             </Button>
           </motion.div>
