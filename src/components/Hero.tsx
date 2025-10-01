@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ChevronDown, Download, Mail, Github, Linkedin } from 'lucide-react'
+import { ChevronDown, Download, Mail, Github, Linkedin, FileText } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import kiranPortrait from '@/assets/kiran-profile.png'
 import techBg from '@/assets/tech-bg.jpg'
@@ -124,16 +124,35 @@ const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               Contact Me
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              onClick={() => window.open('https://drive.google.com/file/d/1OMAgMA39WSHs_TlQi9yV9ooDF5Gfnn0j/view?usp=drivesdk', '_blank')}
-              className="group relative overflow-hidden border-2 border-primary/50 bg-gradient-to-r from-primary/10 to-accent/10 hover:from-primary/20 hover:to-accent/20 text-primary hover:text-white transition-all duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(var(--primary),0.3)]"
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <Download className="mr-2 h-5 w-5 relative z-10 group-hover:animate-bounce" />
-              <span className="relative z-10 font-semibold">Download Resume</span>
-            </Button>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/file/d/175YrvCmE8DA3-rNOvBYJe4_iugEoDBZg/view?usp=drivesdk', '_blank')}
+                className="group border-primary/50 hover:bg-primary/10 transition-all duration-300 hover:scale-105"
+              >
+                <FileText className="mr-2 h-4 w-4" />
+                <span className="text-sm">Python Developer</span>
+              </Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/file/d/1JRv65jXmNIq16_y6Ajpk73Ic7uemKU80/view?usp=drivesdk', '_blank')}
+                className="group border-primary/50 hover:bg-primary/10 transition-all duration-300 hover:scale-105"
+              >
+                <FileText className="mr-2 h-4 w-4" />
+                <span className="text-sm">Software Developer</span>
+              </Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/file/d/1pAN_nknMKnk0nwPwgYMkrcwORbBbEAZS/view?usp=drivesdk', '_blank')}
+                className="group border-primary/50 hover:bg-primary/10 transition-all duration-300 hover:scale-105"
+              >
+                <FileText className="mr-2 h-4 w-4" />
+                <span className="text-sm">Data Analyst</span>
+              </Button>
+            </div>
           </motion.div>
 
           {/* Social Links */}
