@@ -1,48 +1,48 @@
 import { motion } from 'framer-motion'
-import { Code, Database, Brain, Globe, Wrench, BarChart } from 'lucide-react'
+import { Code, Database, Brain, Globe, Wrench, BarChart, Sparkles } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Progress } from '@/components/ui/progress'
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Programming Language",
       icon: Code,
       skills: [
         { name: "Python", level: 90 },
         { name: "SQL", level: 85 },
-        { name: "Java", level: 65 },
-        { name: "JavaScript", level: 70 }
+        { name: "Java", level: 50 },
+        { name: "JavaScript", level: 50 }
       ]
     },
     {
       title: "Web Development",
       icon: Globe,
       skills: [
-        { name: "Flask", level: 85 },
-        { name: "Django", level: 80 },
-        { name: "HTML/CSS", level: 85 },
-        { name: "REST APIs", level: 80 }
+        { name: "Flask", level: 90 },
+        { name: "Django", level: 70 },
+        { name: "HTML/CSS", level: 80 },
+        { name: "REST APIs", level: 70 }
       ]
     },
     {
-      title: "AI & Machine Learning",
+      title: "AI & ML",
       icon: Brain,
       skills: [
-        { name: "Supervised Learning", level: 85 },
-        { name: "Predictive Modeling", level: 80 },
-        { name: "Data Preprocessing", level: 85 },
-        { name: "Hyperparameter Tuning", level: 75 }
+        { name: "Supervised & Unsupervised Learning, NLP", level: 75 },
+        { name: "Regression, Classification, Clustering", level: 75 },
+        { name: "Neural Network, CNNs", level: 70 },
+        { name: "Tensorflow, PyTorch, Keras", level: 60 }
       ]
     },
     {
       title: "Database & Analytics",
       icon: Database,
       skills: [
-        { name: "SQL Databases", level: 85 },
-        { name: "Database Design", level: 80 },
-        { name: "Power BI", level: 75 },
-        { name: "Data Management", level: 85 }
+        { name: "MySQL", level: 85 },
+        { name: "ORMs", level: 80 },
+        { name: "PowerBi", level: 91 },
+        { name: "Excel", level: 85 }
       ]
     },
     {
@@ -50,19 +50,29 @@ const Skills = () => {
       icon: Wrench,
       skills: [
         { name: "Git", level: 80 },
-        { name: "Agile Methodologies", level: 75 },
-        { name: "Streamlit", level: 80 },
-        { name: "Tkinter", level: 70 }
+        { name: "Agile Methodologies", level: 85 },
+        { name: "VSCode", level: 95 },
+        { name: "TKinter", level: 70 }
+      ]
+    },
+    {
+      title: "AI Tools",
+      icon: Sparkles,
+      skills: [
+        { name: "ChatGPT", level: 95 },
+        { name: "Bito", level: 85 },
+        { name: "GitHub Copilot", level: 90 },
+        { name: "CodeGPT", level: 85 }
       ]
     },
     {
       title: "Soft Skills",
       icon: BarChart,
       skills: [
-        { name: "Problem Solving", level: 90 },
-        { name: "Team Collaboration", level: 85 },
-        { name: "Communication", level: 80 },
-        { name: "Project Management", level: 75 }
+        { name: "Communication", level: 95 },
+        { name: "Problem Solving", level: 85 },
+        { name: "Team Work", level: 85 },
+        { name: "Project Management", level: 85 }
       ]
     }
   ]
