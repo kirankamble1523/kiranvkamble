@@ -127,7 +127,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="sm"
-              onClick={() => window.open('https://drive.google.com/file/d/175YrvCmE8DA3-rNOvBYJe4_iugEoDBZg/view?usp=drivesdk', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/18HdOEuF31RaOoDpikcO1eeWYJ6mV_ZTj/view?usp=drivesdk', '_blank')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               <FileText className="mr-1 h-3.5 w-3.5" />
@@ -136,7 +136,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="sm"
-              onClick={() => window.open('https://drive.google.com/file/d/1JRv65jXmNIq16_y6Ajpk73Ic7uemKU80/view?usp=drivesdk', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1V02x28uetBLXoM_iHBj8ZBwtjR1DsbpR/view?usp=drivesdk', '_blank')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               <FileText className="mr-1 h-3.5 w-3.5" />
@@ -145,7 +145,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="sm"
-              onClick={() => window.open('https://drive.google.com/file/d/1pAN_nknMKnk0nwPwgYMkrcwORbBbEAZS/view?usp=drivesdk', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1UwRlidvXoFqyGpKu6xJqX61Hzf5TS3pO/view?usp=drivesdk', '_blank')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
               <FileText className="mr-1 h-3.5 w-3.5" />
