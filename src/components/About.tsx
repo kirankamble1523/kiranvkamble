@@ -5,21 +5,21 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 const About = () => {
   const education = [
     {
-      degree: "2021 - 2025 | B.E. in AI & ML",
+      degree: "B.E. in AI & ML",
       institution: "NESGI College (SPPU University Pune)",
       year: "2025",
       gpa: "8.1/10",
       icon: GraduationCap,
     },
     {
-      degree: "2021 | HSC (Science, PCMB)",
+      degree: "HSC (Science, PCMB)",
       institution: "R.P. College, Dharashiv",
       year: "Completed",
       gpa: "79.81%",
       icon: Award,
     },
     {
-      degree: "2019 | SSC",
+      degree: "SSC",
       institution: "Aryachankya Mahavidyalay, Dharashiv",
       year: "Completed",
       gpa: "82%",
