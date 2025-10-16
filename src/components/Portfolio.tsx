@@ -35,6 +35,20 @@ const Portfolio = () => {
       ]
     },
     {
+      title: "Sentiment Analysis",
+      description: "A comprehensive sentiment analysis system built with Flask and machine learning that classifies social media comments and text into positive, negative, and neutral sentiments using advanced NLP techniques. Features AI-powered classification, real-time text analysis, and TF-IDF feature extraction with interactive web interface.",
+      technologies: ["Python", "Flask", "NLP", "Scikit-learn", "TF-IDF", "Machine Learning", "HTML/CSS", "Text Processing"],
+      github: "https://github.com/kirankamble1523/SentmentAnalysis",
+      demo: "#",
+      category: "AI/ML Application",
+      highlights: [
+        "Multi-class sentiment classification (Positive, Negative, Neutral)",
+        "Real-time prediction with confidence scores",
+        "TF-IDF vectorization for feature extraction",
+        "Interactive web interface with RESTful architecture"
+      ]
+    },
+    {
       title: "Car Price Prediction Web App",
       description: "A machine learning web application that predicts car prices based on various features using Random Forest algorithm. Built with Streamlit for an intuitive user interface and deployed for real-time predictions.",
       technologies: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Science", "Pandas"],
