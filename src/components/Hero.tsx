@@ -127,6 +127,15 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="sm"
+              onClick={() => window.open('https://drive.google.com/file/d/1LXMBXOIgsFfY-m1yysl0Say0DKNBjX9T/view?usp=drivesdk', '_blank')}
+              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              <FileText className="mr-1 h-3.5 w-3.5" />
+              AI Engineer
+            </Button>
+            <Button 
+              variant="outline" 
+              size="sm"
               onClick={() => window.open('https://drive.google.com/file/d/18HdOEuF31RaOoDpikcO1eeWYJ6mV_ZTj/view?usp=drivesdk', '_blank')}
               className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
