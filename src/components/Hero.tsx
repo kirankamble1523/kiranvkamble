@@ -106,60 +106,64 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
-            className="flex flex-col sm:flex-row gap-2 justify-center items-center"
+            className="space-y-4"
           >
-            <Button 
-              size="sm" 
-              onClick={() => scrollToSection('#portfolio')}
-              className="bg-hero-gradient hover:shadow-lg transition-all duration-300 hover:scale-105"
-            >
-              Explore Projects
-            </Button>
-            <Button 
-              variant="outline" 
-              size="sm"
-              onClick={() => scrollToSection('#contact')}
-              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            >
-              <Mail className="mr-1 h-3.5 w-3.5" />
-              Contact Me
-            </Button>
-            <Button 
-              variant="outline" 
-              size="sm"
-              onClick={() => window.open('https://drive.google.com/file/d/1LXMBXOIgsFfY-m1yysl0Say0DKNBjX9T/view?usp=drivesdk', '_blank')}
-              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            >
-              <FileText className="mr-1 h-3.5 w-3.5" />
-              AI Engineer
-            </Button>
-            <Button 
-              variant="outline" 
-              size="sm"
-              onClick={() => window.open('https://drive.google.com/file/d/18HdOEuF31RaOoDpikcO1eeWYJ6mV_ZTj/view?usp=drivesdk', '_blank')}
-              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            >
-              <FileText className="mr-1 h-3.5 w-3.5" />
-              Python Developer
-            </Button>
-            <Button 
-              variant="outline" 
-              size="sm"
-              onClick={() => window.open('https://drive.google.com/file/d/1V02x28uetBLXoM_iHBj8ZBwtjR1DsbpR/view?usp=drivesdk', '_blank')}
-              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            >
-              <FileText className="mr-1 h-3.5 w-3.5" />
-              Software Developer
-            </Button>
-            <Button 
-              variant="outline" 
-              size="sm"
-              onClick={() => window.open('https://drive.google.com/file/d/1UwRlidvXoFqyGpKu6xJqX61Hzf5TS3pO/view?usp=drivesdk', '_blank')}
-              className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            >
-              <FileText className="mr-1 h-3.5 w-3.5" />
-              Data Analyst
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-2 justify-center items-center">
+              <Button 
+                size="sm" 
+                onClick={() => scrollToSection('#portfolio')}
+                className="bg-hero-gradient hover:shadow-lg transition-all duration-300 hover:scale-105"
+              >
+                Explore Projects
+              </Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => scrollToSection('#contact')}
+                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                <Mail className="mr-1 h-3.5 w-3.5" />
+                Contact Me
+              </Button>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-2 justify-center items-center flex-wrap">
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/file/d/1LXMBXOIgsFfY-m1yysl0Say0DKNBjX9T/view?usp=drivesdk', '_blank')}
+                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                <FileText className="mr-1 h-3.5 w-3.5" />
+                AI Engineer
+              </Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/file/d/18HdOEuF31RaOoDpikcO1eeWYJ6mV_ZTj/view?usp=drivesdk', '_blank')}
+                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                <FileText className="mr-1 h-3.5 w-3.5" />
+                Python Developer
+              </Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/file/d/1V02x28uetBLXoM_iHBj8ZBwtjR1DsbpR/view?usp=drivesdk', '_blank')}
+                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                <FileText className="mr-1 h-3.5 w-3.5" />
+                Software Developer
+              </Button>
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={() => window.open('https://drive.google.com/file/d/1UwRlidvXoFqyGpKu6xJqX61Hzf5TS3pO/view?usp=drivesdk', '_blank')}
+                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                <FileText className="mr-1 h-3.5 w-3.5" />
+                Data Analyst
+              </Button>
+            </div>
           </motion.div>
 
           {/* Social Links */}
