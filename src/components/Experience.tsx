@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Briefcase, Calendar, MapPin, CheckCircle } from 'lucide-react'
+import { Briefcase, Calendar, MapPin, CheckCircle, GraduationCap, Trophy } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 
@@ -36,6 +36,12 @@ const Experience = () => {
     }
   ]
 
+  const education = {
+    degree: "B.E. in Artificial Intelligence & Machine Learning",
+    achievement: "Ranked Top 5 in College",
+    description: "Achieved top 5 ranking among all students during the academic journey, demonstrating exceptional performance in AI & ML coursework and projects."
+  }
+
   return (
     <section id="experience" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,6 +59,35 @@ const Experience = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             My professional journey and key achievements in the field of AI and software development.
           </p>
+        </motion.div>
+
+        {/* Education Achievement */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="max-w-4xl mx-auto mb-12"
+        >
+          <Card className="portfolio-card border-l-4 border-l-yellow-500 bg-gradient-to-r from-yellow-500/5 to-transparent">
+            <CardContent className="p-6">
+              <div className="flex items-center gap-4">
+                <div className="bg-yellow-500/10 p-4 rounded-full">
+                  <Trophy className="h-8 w-8 text-yellow-500" />
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1">
+                    <GraduationCap className="h-5 w-5 text-primary" />
+                    <h3 className="text-xl font-semibold text-foreground">{education.degree}</h3>
+                  </div>
+                  <Badge className="bg-yellow-500/20 text-yellow-600 border-yellow-500/30 mb-2">
+                    🏆 {education.achievement}
+                  </Badge>
+                  <p className="text-muted-foreground text-sm">{education.description}</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </motion.div>
 
         <div className="max-w-4xl mx-auto">
