@@ -7,17 +7,20 @@ const Certifications = () => {
     {
       name: "Python Course Completion",
       issuer: "IBM",
-      icon: "🐍"
+      icon: "🐍",
+      link: "https://www.credly.com/badges/example1"
     },
     {
       name: "Machine Learning",
       issuer: "Stanford (Coursera)",
-      icon: "🤖"
+      icon: "🤖",
+      link: "https://coursera.org/verify/example2"
     },
     {
       name: "AWS Cloud Practitioner",
       issuer: "Amazon Web Services",
-      icon: "☁️"
+      icon: "☁️",
+      link: "https://www.credly.com/badges/example3"
     }
   ]
 
@@ -49,20 +52,26 @@ const Certifications = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="portfolio-card h-full text-center hover:scale-105 transition-transform duration-300">
-                <CardContent className="p-8">
-                  <div className="text-5xl mb-4">{cert.icon}</div>
-                  <div className="bg-primary/10 p-3 rounded-full w-fit mx-auto mb-4">
-                    <Award className="h-8 w-8 text-primary" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-foreground mb-2">
-                    {cert.name}
-                  </h3>
-                  <p className="text-muted-foreground">
-                    {cert.issuer}
-                  </p>
-                </CardContent>
-              </Card>
+              <a href={cert.link} target="_blank" rel="noopener noreferrer">
+                <Card className="portfolio-card h-full text-center hover:scale-105 transition-transform duration-300 cursor-pointer">
+                  <CardContent className="p-8">
+                    <div className="text-5xl mb-4">{cert.icon}</div>
+                    <div className="bg-primary/10 p-3 rounded-full w-fit mx-auto mb-4">
+                      <Award className="h-8 w-8 text-primary" />
+                    </div>
+                    <h3 className="text-xl font-semibold text-foreground mb-2">
+                      {cert.name}
+                    </h3>
+                    <p className="text-muted-foreground mb-3">
+                      {cert.issuer}
+                    </p>
+                    <div className="flex items-center justify-center gap-2 text-primary text-sm">
+                      <ExternalLink className="h-4 w-4" />
+                      <span>View Credential</span>
+                    </div>
+                  </CardContent>
+                </Card>
+              </a>
             </motion.div>
           ))}
         </div>
