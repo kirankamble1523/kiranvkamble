@@ -10,6 +10,7 @@ const Footer = () => {
 
   const quickLinks = [
     { name: 'About', href: '#about' },
+    { name: 'Resumes', href: '#resumes' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
     { name: 'Portfolio', href: '#portfolio' },
