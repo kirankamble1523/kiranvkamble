@@ -9,21 +9,21 @@ const resumes = [
     description: 'Machine learning, deep learning, and AI solutions',
     icon: Brain,
     color: 'from-purple-500 to-pink-500',
-    link: 'https://drive.google.com/file/d/1IR6v1m8nMjOHbdt9hecyKYlYf5K0MGnC/view?usp=drivesdk'
+    link: 'https://drive.google.com/file/d/1ySerCILq--TBjXYT3gWZxoW0JaQBMhlq/view?usp=drivesdk'
   },
   {
     title: 'Software Developer',
     description: 'Full-stack development and software engineering',
     icon: Briefcase,
     color: 'from-blue-500 to-cyan-500',
-    link: 'https://drive.google.com/file/d/1V02x28uetBLXoM_iHBj8ZBwtjR1DsbpR/view?usp=drivesdk'
+    link: 'https://drive.google.com/file/d/19ontApyI37S-N3BNttN3asLha13clWeA/view?usp=drivesdk'
   },
   {
     title: 'Data Analyst',
     description: 'Data visualization and business intelligence',
     icon: BarChart3,
     color: 'from-green-500 to-emerald-500',
-    link: 'https://drive.google.com/file/d/1UwRlidvXoFqyGpKu6xJqX61Hzf5TS3pO/view?usp=drivesdk'
+    link: 'https://drive.google.com/file/d/1bsp5R2KtdnH749_wt7fDHq1dSB50atBk/view?usp=drivesdk'
   }
 ]
 
