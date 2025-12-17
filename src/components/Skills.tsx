@@ -49,9 +49,9 @@ const Skills = () => {
       title: "Tools & Technologies",
       icon: Wrench,
       skills: [
-        { name: "Git", level: 80 },
-        { name: "Agile Methodologies", level: 85 },
         { name: "VSCode", level: 95 },
+        { name: "Agile Methodologies", level: 85 },
+        { name: "Git", level: 80 },
         { name: "TKinter", level: 70 }
       ]
     },
