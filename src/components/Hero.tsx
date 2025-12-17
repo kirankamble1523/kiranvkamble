@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ChevronDown, Download, Mail, Github, Linkedin, FileText } from 'lucide-react'
+import { ChevronDown, Mail, Github, Linkedin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import kiranPortrait from '@/assets/kiran-profile.png'
 import techBg from '@/assets/tech-bg.jpg'
@@ -124,44 +124,6 @@ const Hero = () => {
               >
                 <Mail className="mr-1 h-3.5 w-3.5" />
                 Contact Me
-              </Button>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-2 justify-center items-center flex-wrap">
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://drive.google.com/file/d/1IR6v1m8nMjOHbdt9hecyKYlYf5K0MGnC/view?usp=drivesdk', '_blank')}
-                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                <FileText className="mr-1 h-3.5 w-3.5" />
-                AI Engineer
-              </Button>
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://drive.google.com/file/d/18HdOEuF31RaOoDpikcO1eeWYJ6mV_ZTj/view?usp=drivesdk', '_blank')}
-                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                <FileText className="mr-1 h-3.5 w-3.5" />
-                Python Developer
-              </Button>
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://drive.google.com/file/d/1V02x28uetBLXoM_iHBj8ZBwtjR1DsbpR/view?usp=drivesdk', '_blank')}
-                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                <FileText className="mr-1 h-3.5 w-3.5" />
-                Software Developer
-              </Button>
-              <Button 
-                variant="outline" 
-                size="sm"
-                onClick={() => window.open('https://drive.google.com/file/d/1UwRlidvXoFqyGpKu6xJqX61Hzf5TS3pO/view?usp=drivesdk', '_blank')}
-                className="border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                <FileText className="mr-1 h-3.5 w-3.5" />
-                Data Analyst
               </Button>
             </div>
           </motion.div>
