@@ -6,11 +6,29 @@ import { useTheme } from '@/components/ThemeProvider'
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [activeSection, setActiveSection] = useState('home')
   const { theme, setTheme } = useTheme()
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
+      
+      // Detect active section
+      const sections = ['home', 'about', 'resumes', 'experience', 'skills', 'portfolio', 'contact']
+      const scrollPosition = window.scrollY + 100
+
+      for (const section of sections) {
+        const element = document.getElementById(section)
+        if (element) {
+          const offsetTop = element.offsetTop
+          const offsetHeight = element.offsetHeight
+          
+          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+            setActiveSection(section)
+            break
+          }
+        }
+      }
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -32,6 +50,12 @@ const Navigation = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
       setIsMobileMenuOpen(false)
+      
+      // Add highlight effect to the target section
+      element.classList.add('section-highlight')
+      setTimeout(() => {
+        element.classList.remove('section-highlight')
+      }, 1000)
     }
   }
 
@@ -54,9 +78,16 @@ const Navigation = () => {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="nav-link text-foreground hover:text-primary transition-colors duration-200"
+                className={`nav-link relative text-foreground transition-colors duration-200 ${
+                  activeSection === item.href.slice(1) 
+                    ? 'text-primary font-semibold' 
+                    : 'hover:text-primary'
+                }`}
               >
                 {item.name}
+                {activeSection === item.href.slice(1) && (
+                  <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary rounded-full animate-scale-in" />
+                )}
               </button>
             ))}
             
@@ -96,15 +127,19 @@ const Navigation = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-background/95 backdrop-blur-md rounded-lg mt-2">
-              {navItems.map((item) => (
-                <button
-                  key={item.name}
-                  onClick={() => scrollToSection(item.href)}
-                  className="block px-3 py-2 text-base font-medium text-foreground hover:text-primary transition-colors duration-200 w-full text-left"
-                >
-                  {item.name}
-                </button>
-              ))}
+                {navItems.map((item) => (
+                  <button
+                    key={item.name}
+                    onClick={() => scrollToSection(item.href)}
+                    className={`block px-3 py-2 text-base font-medium transition-colors duration-200 w-full text-left rounded-md ${
+                      activeSection === item.href.slice(1)
+                        ? 'text-primary bg-primary/10 font-semibold'
+                        : 'text-foreground hover:text-primary hover:bg-primary/5'
+                    }`}
+                  >
+                    {item.name}
+                  </button>
+                ))}
             </div>
           </div>
         )}
