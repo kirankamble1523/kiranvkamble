@@ -72,6 +72,7 @@ export default {
 			backgroundImage: {
 				'hero-gradient': 'var(--hero-gradient)',
 				'hero-glow': 'var(--hero-glow)',
+				'hero-purple': 'var(--hero-purple)',
 				'skill-gradient': 'var(--skill-gradient)',
 				'text-gradient': 'var(--text-gradient)'
 			},
