@@ -43,10 +43,11 @@
     /* Portfolio specific tokens */
     --hero-gradient: linear-gradient(135deg, hsl(220 85% 25%), hsl(200 95% 50%));
     --hero-glow: linear-gradient(135deg, hsl(220 85% 25% / 0.1), hsl(200 95% 50% / 0.1));
+    --hero-purple: linear-gradient(135deg, hsl(270 60% 25%) 0%, hsl(280 70% 35%) 50%, hsl(290 65% 30%) 100%);
     --card-shadow: 0 4px 20px hsl(220 15% 15% / 0.08);
     --card-hover-shadow: 0 8px 30px hsl(220 15% 15% / 0.12);
-    --skill-gradient: linear-gradient(90deg, hsl(220 85% 25%), hsl(200 95% 50%));
-    --text-gradient: linear-gradient(135deg, hsl(220 85% 25%), hsl(200 95% 50%));
+    --skill-gradient: linear-gradient(90deg, hsl(270 60% 50%), hsl(290 65% 60%));
+    --text-gradient: linear-gradient(135deg, hsl(270 60% 50%), hsl(290 65% 60%));
     
     /* Animation tokens */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -103,10 +104,11 @@
     /* Dark theme gradients */
     --hero-gradient: linear-gradient(135deg, hsl(200 95% 60%), hsl(220 85% 35%));
     --hero-glow: linear-gradient(135deg, hsl(200 95% 60% / 0.1), hsl(220 85% 35% / 0.1));
+    --hero-purple: linear-gradient(135deg, hsl(270 60% 15%) 0%, hsl(280 70% 25%) 50%, hsl(290 65% 20%) 100%);
     --card-shadow: 0 4px 20px hsl(0 0% 0% / 0.3);
     --card-hover-shadow: 0 8px 30px hsl(0 0% 0% / 0.4);
-    --skill-gradient: linear-gradient(90deg, hsl(200 95% 60%), hsl(220 85% 35%));
-    --text-gradient: linear-gradient(135deg, hsl(200 95% 60%), hsl(220 85% 35%));
+    --skill-gradient: linear-gradient(90deg, hsl(270 60% 60%), hsl(290 65% 70%));
+    --text-gradient: linear-gradient(135deg, hsl(270 60% 60%), hsl(290 65% 70%));
   }
 }
 
