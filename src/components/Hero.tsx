@@ -26,13 +26,12 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-hero-purple"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-background"
     >
-      {/* Animated Background Elements */}
+      {/* Subtle Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-400/20 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-600/10 rounded-full blur-3xl" />
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-200/30 rounded-full blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-violet-200/30 rounded-full blur-3xl" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -50,7 +49,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-lg md:text-xl text-purple-200 font-medium"
+              className="text-lg md:text-xl text-purple-600 font-medium"
             >
               Hello, I'm
             </motion.p>
@@ -60,11 +59,11 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight"
+              className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight"
             >
               Kiran Vishnu
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-violet-600">
                 Kamble
               </span>
             </motion.h1>
@@ -82,7 +81,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.5 }}
-                className="text-xl md:text-2xl lg:text-3xl font-bold tracking-wider text-purple-300"
+                className="text-xl md:text-2xl lg:text-3xl font-bold tracking-wider text-purple-600"
               >
                 {roles[currentRoleIndex]}
               </motion.h2>
@@ -93,7 +92,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="text-base md:text-lg text-purple-100/80 max-w-xl mx-auto lg:mx-0 leading-relaxed"
+              className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 leading-relaxed"
             >
               Passionate about crafting intelligent, scalable solutions that merge cutting-edge 
               machine learning with robust software development. Building the future, one line of code at a time.
@@ -109,7 +108,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 onClick={() => scrollToSection('#portfolio')}
-                className="bg-white text-purple-900 hover:bg-purple-100 font-semibold px-8 py-6 text-base shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="bg-gradient-to-r from-purple-600 to-violet-600 text-white hover:from-purple-700 hover:to-violet-700 font-semibold px-8 py-6 text-base shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
                 View Projects
               </Button>
@@ -117,7 +116,7 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 onClick={() => scrollToSection('#contact')}
-                className="border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-6 text-base backdrop-blur-sm transition-all duration-300 hover:scale-105"
+                className="border-2 border-purple-600 text-purple-600 hover:bg-purple-50 font-semibold px-8 py-6 text-base transition-all duration-300 hover:scale-105"
               >
                 Hire Me
               </Button>
@@ -134,7 +133,7 @@ const Hero = () => {
                 href="https://linkedin.com/in/kiran-kamble07" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-purple-900 transition-all duration-300 hover:scale-110"
+                className="w-12 h-12 rounded-full bg-purple-100 border border-purple-200 flex items-center justify-center text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-110"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
@@ -142,7 +141,7 @@ const Hero = () => {
                 href="https://github.com/kirankamble1523" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-purple-900 transition-all duration-300 hover:scale-110"
+                className="w-12 h-12 rounded-full bg-purple-100 border border-purple-200 flex items-center justify-center text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-110"
               >
                 <Github className="h-5 w-5" />
               </a>
@@ -150,13 +149,13 @@ const Hero = () => {
                 href="https://instagram.com/kiran_kamble07" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-purple-900 transition-all duration-300 hover:scale-110"
+                className="w-12 h-12 rounded-full bg-purple-100 border border-purple-200 flex items-center justify-center text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-110"
               >
                 <Instagram className="h-5 w-5" />
               </a>
               <a 
                 href="mailto:kirankamble.co.in03@gmail.com"
-                className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-purple-900 transition-all duration-300 hover:scale-110"
+                className="w-12 h-12 rounded-full bg-purple-100 border border-purple-200 flex items-center justify-center text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-110"
               >
                 <Mail className="h-5 w-5" />
               </a>
@@ -172,21 +171,19 @@ const Hero = () => {
           >
             <div className="relative">
               {/* Decorative rings */}
-              <div className="absolute inset-0 -m-4 rounded-full border-2 border-purple-400/20 animate-pulse" />
-              <div className="absolute inset-0 -m-8 rounded-full border border-purple-300/10" />
+              <div className="absolute inset-0 -m-4 rounded-full border-2 border-purple-300/30 animate-pulse" />
+              <div className="absolute inset-0 -m-8 rounded-full border border-purple-200/20" />
               
               {/* Glow effect */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/30 to-pink-500/30 rounded-3xl blur-2xl scale-110" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-purple-300/40 to-violet-300/40 rounded-3xl blur-2xl scale-110" />
               
               {/* Image container */}
-              <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-white/20 shadow-2xl backdrop-blur-sm">
+              <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden border-4 border-purple-200 shadow-2xl">
                 <img 
                   src={kiranPortrait} 
                   alt="Kiran Vishnu Kamble - AI & ML Engineer" 
                   className="w-full h-full object-cover"
                 />
-                {/* Overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/40 via-transparent to-transparent" />
               </div>
 
               {/* Floating decorative elements */}
@@ -204,9 +201,6 @@ const Hero = () => {
           </motion.div>
         </div>
       </div>
-
-      {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
     </section>
   )
 }
