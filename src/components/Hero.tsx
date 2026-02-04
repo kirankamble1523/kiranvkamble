@@ -23,6 +23,31 @@ const Hero = () => {
     }
   }
 
+  const openExternalLink = (url: string) => {
+    const inIframe = (() => {
+      try {
+        return window.self !== window.top
+      } catch {
+        return true
+      }
+    })()
+
+    // In the editor preview, the app often runs inside a sandboxed iframe.
+    // Some sites (including Instagram) block iframe/sandbox contexts.
+    // This tries to escape the iframe first, then falls back to a normal new-tab open.
+    if (inIframe) {
+      try {
+        window.top?.location.assign(url)
+        return
+      } catch {
+        // ignore and fall back
+      }
+    }
+
+    const win = window.open(url, '_blank', 'noopener,noreferrer')
+    if (!win) window.location.assign(url)
+  }
+
   return (
     <section 
       id="home" 
@@ -149,6 +174,10 @@ const Hero = () => {
                 href="https://www.instagram.com/_.er.kiran03._?igsh=NzdqZ3h0MmE0amEw"
                 target="_blank" 
                 rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault()
+                  openExternalLink('https://www.instagram.com/_.er.kiran03._?igsh=NzdqZ3h0MmE0amEw')
+                }}
                 className="w-12 h-12 rounded-full bg-purple-100 border border-purple-200 flex items-center justify-center text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-110 cursor-pointer"
               >
                 <Instagram className="h-5 w-5" />
