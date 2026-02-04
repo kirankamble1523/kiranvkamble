@@ -146,12 +146,12 @@ const Hero = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://www.instagram.com/_.er.kiran03._"
+                href="https://www.instagram.com/_.er.kiran03._?igsh=NzdqZ3h0MmE0amEw"
                 target="_blank" 
                 rel="noopener noreferrer"
                 onClick={(e) => {
                   e.preventDefault();
-                  window.open('https://www.instagram.com/_.er.kiran03._', '_blank');
+                  window.open('https://www.instagram.com/_.er.kiran03._?igsh=NzdqZ3h0MmE0amEw', '_blank');
                 }}
                 className="w-12 h-12 rounded-full bg-purple-100 border border-purple-200 flex items-center justify-center text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300 hover:scale-110 cursor-pointer"
               >
