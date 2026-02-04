@@ -5,25 +5,18 @@ import { Card, CardContent } from '@/components/ui/card'
 
 const resumes = [
   {
+    title: 'Software Engineer',
+    description: 'Full-stack development and software engineering',
+    icon: Briefcase,
+    color: 'from-blue-500 to-cyan-500',
+    link: 'https://drive.google.com/file/d/1SmTuBtzU76Ds-bldjlLQQSNv4uv4Sq1Q/view?usp=drivesdk'
+  },
+  {
     title: 'AI Engineer',
     description: 'Machine learning, deep learning, and AI solutions',
     icon: Brain,
     color: 'from-purple-500 to-pink-500',
-    link: 'https://drive.google.com/file/d/1ySerCILq--TBjXYT3gWZxoW0JaQBMhlq/view?usp=drivesdk'
-  },
-  {
-    title: 'Software Developer',
-    description: 'Full-stack development and software engineering',
-    icon: Briefcase,
-    color: 'from-blue-500 to-cyan-500',
-    link: 'https://drive.google.com/file/d/19ontApyI37S-N3BNttN3asLha13clWeA/view?usp=drivesdk'
-  },
-  {
-    title: 'Data Analyst',
-    description: 'Data visualization and business intelligence',
-    icon: BarChart3,
-    color: 'from-green-500 to-emerald-500',
-    link: 'https://drive.google.com/file/d/1bsp5R2KtdnH749_wt7fDHq1dSB50atBk/view?usp=drivesdk'
+    link: 'https://drive.google.com/file/d/1fdq7GqNeinjg9jixFTyVfQAKKVzzRgM6/view?usp=drivesdk'
   }
 ]
 
