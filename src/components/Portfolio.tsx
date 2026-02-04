@@ -140,24 +140,14 @@ const Portfolio = () => {
                     <Badge variant="secondary" className="text-xs">
                       {project.category}
                     </Badge>
-                    <div className="flex space-x-2">
-                      <Button
-                        size="sm"
-                        variant="ghost"
-                        onClick={() => window.open(project.github, '_blank')}
-                        className="p-2"
-                      >
-                        <Github className="h-4 w-4" />
-                      </Button>
-                      <Button
-                        size="sm"
-                        variant="ghost"
-                        onClick={() => window.open(project.demo, '_blank')}
-                        className="p-2"
-                      >
-                        <ExternalLink className="h-4 w-4" />
-                      </Button>
-                    </div>
+                    <Button
+                      size="sm"
+                      variant="ghost"
+                      onClick={() => window.open(project.github, '_blank')}
+                      className="p-2"
+                    >
+                      <Github className="h-4 w-4" />
+                    </Button>
                   </div>
                   <CardTitle className="text-xl text-foreground mb-3">
                     {project.title}
