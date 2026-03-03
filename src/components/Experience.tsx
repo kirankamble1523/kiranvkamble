@@ -111,6 +111,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               viewport={{ once: true }}
+              className="mb-8 last:mb-0"
             >
               <Card className="portfolio-card border-l-4 border-l-primary">
                 <CardHeader>
