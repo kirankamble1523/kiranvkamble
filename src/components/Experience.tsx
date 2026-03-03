@@ -20,7 +20,7 @@ const Experience = () => {
     },
     {
       role: "Machine Learning Intern",
-      company: "Coratia Technologies",
+      company: "TeachNook Technologies",
       duration: "Sep 2023 - Oct 2023",
       location: "Remote",
       type: "Internship",
@@ -30,7 +30,7 @@ const Experience = () => {
         "Collaborated with cross-functional teams to integrate ML solutions",
         "Gained hands-on experience with medical imaging and computer vision"
       ],
-      skills: ["Python", "Machine Learning", "Computer Vision", "Data Preprocessing", "Model Deployment"]
+      skills: ["Python", "Machine Learning", "Computer Vision", "CNN", "Transfer Learning", "Data Preprocessing", "Model Deployment"]
     },
     {
       role: "Cloud Computing Intern (AZ-900)",
