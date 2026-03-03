@@ -6,6 +6,19 @@ import { Badge } from '@/components/ui/badge'
 const Experience = () => {
   const experiences = [
     {
+      role: "Data Analyst Intern",
+      company: "SkillEcted Pvt. Ltd.",
+      duration: "Mar 2025 - Jun 2025",
+      location: "Pune",
+      type: "Internship",
+      achievements: [
+        "Performed end-to-end data analysis lifecycle including data collection, cleaning, transformation, exploratory data analysis (EDA), and visualization using Python (Pandas, NumPy, Matplotlib)",
+        "Developed multiple interactive Power BI dashboards to track KPIs such as revenue, profit margins, customer segmentation, and product performance",
+        "Implemented data modeling, DAX measures, and Power Query transformations to optimize reporting accuracy and improve decision-making efficiency"
+      ],
+      skills: ["Python", "Pandas", "NumPy", "Matplotlib", "Power BI", "DAX", "Power Query", "Data Analysis", "EDA"]
+    },
+    {
       role: "Machine Learning Intern",
       company: "Coratia Technologies",
       duration: "Sep 2023 - Oct 2023",
