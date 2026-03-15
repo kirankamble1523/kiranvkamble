@@ -3,7 +3,16 @@ import { FileText, Download } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 
-const resumeLink = 'https://drive.google.com/file/d/1MTbpsKOEiitq2IAuu0Vf4gBTJtvALRpU/view?usp=drivesdk'
+const resumes = [
+  {
+    title: 'Developer',
+    link: 'https://drive.google.com/file/d/1slI-tB_KINg79JYklGlq4D4iaGmYPWQW/view?usp=drivesdk'
+  },
+  {
+    title: 'Data Analyst',
+    link: 'https://drive.google.com/file/d/1fDZKm8kYa4RhxKhRRMQe0OLsyqZ6PR6c/view?usp=drivesdk'
+  }
+]
 
 const Resumes = () => {
   return (
