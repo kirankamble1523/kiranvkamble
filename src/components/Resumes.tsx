@@ -26,10 +26,10 @@ const Resumes = () => {
           className="text-center mb-12"
         >
           <h2 className="font-formal-script text-4xl md:text-5xl font-bold text-gradient mb-4">
-            My Resume
+            My Resumes
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Download my resume to learn more about my experience and skills
+            Download my resumes tailored for different roles
           </p>
         </motion.div>
 
