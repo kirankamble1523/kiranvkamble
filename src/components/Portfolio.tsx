@@ -102,6 +102,7 @@ const Portfolio = () => {
       technologies: ["SQL", "Power BI", "MySQL", "Data Analysis", "Data Visualization", "DAX", "Data Cleaning", "ETL"],
       github: "https://lnkd.in/d4AKydkH",
       demo: "https://lnkd.in/d4AKydkH",
+      date: "March 2025",
       category: "Data Analytics",
       highlights: [
         "Interactive Power BI dashboard with multiple visualizations",
