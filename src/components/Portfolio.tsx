@@ -159,9 +159,15 @@ const Portfolio = () => {
               <Card className="portfolio-card h-full flex flex-col border-l-4 border-l-primary">
                 <CardHeader>
                   <div className="flex justify-between items-start mb-4">
-                    <Badge variant="secondary" className="text-xs">
-                      {project.category}
-                    </Badge>
+                    <div className="flex items-center gap-2">
+                      <Badge variant="secondary" className="text-xs">
+                        {project.category}
+                      </Badge>
+                      <span className="text-xs text-muted-foreground flex items-center gap-1">
+                        <Calendar className="h-3 w-3" />
+                        {project.date}
+                      </span>
+                    </div>
                     <Button
                       size="sm"
                       variant="ghost"
