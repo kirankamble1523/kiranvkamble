@@ -42,6 +42,7 @@ const Portfolio = () => {
       technologies: ["Python", "SpeechRecognition", "Tkinter", "pyttsx3", "NLP", "Voice Processing"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "May 2025",
       category: "AI/ML Application",
       highlights: [
         "Real-time speech recognition",
