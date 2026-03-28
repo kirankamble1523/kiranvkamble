@@ -12,6 +12,7 @@ const Portfolio = () => {
       technologies: ["Python", "Streamlit", "OpenAI GPT-4o", "LangChain", "Computer Vision", "Generative AI"],
       github: "https://github.com/kirankamble1523/AI-Vision-Story-Lab/tree/main",
       demo: "#",
+      date: "March 2026",
       category: "AI/ML Application",
       highlights: [
         "GPT-4o Vision & LangChain for image understanding",
