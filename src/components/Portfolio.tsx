@@ -72,6 +72,7 @@ const Portfolio = () => {
       technologies: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Science", "Pandas"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "December 2024",
       category: "Machine Learning",
       highlights: [
         "Random Forest ML model",
