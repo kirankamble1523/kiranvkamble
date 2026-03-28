@@ -7,6 +7,20 @@ import { Badge } from '@/components/ui/badge'
 const Portfolio = () => {
   const projects = [
     {
+      title: "AI Vision Story Lab",
+      description: "A Generative AI application leveraging GPT-4o Vision and LangChain for image understanding. Features a scalable Streamlit-based interactive web interface supporting real-time inference, multi-style content generation, and user-centric AI interaction. Engineered an end-to-end AI pipeline with image preprocessing, base64 encoding, prompt engineering, and structured JSON outputs.",
+      technologies: ["Python", "Streamlit", "OpenAI GPT-4o", "LangChain", "Computer Vision", "Generative AI"],
+      github: "https://github.com/kirankamble1523/AI-Vision-Story-Lab/tree/main",
+      demo: "#",
+      category: "AI/ML Application",
+      highlights: [
+        "GPT-4o Vision & LangChain for image understanding",
+        "Real-time inference with multi-style content generation",
+        "Scalable Streamlit interactive web interface",
+        "End-to-end AI pipeline with structured JSON outputs"
+      ]
+    },
+    {
       title: "AI Task Manager Web App",
       description: "A comprehensive task management system built with Flask and SQL that leverages AI for intelligent task prioritization and scheduling. Features CRUD operations, user authentication, and analytics dashboard, resulting in 35% improvement in task completion efficiency.",
       technologies: ["Flask", "Python", "SQL", "HTML/CSS", "AI/ML", "CRUD Operations"],
