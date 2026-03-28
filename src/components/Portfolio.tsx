@@ -117,6 +117,7 @@ const Portfolio = () => {
       technologies: ["Power BI", "Data Analysis", "Data Visualization", "Entertainment Analytics", "Trend Analysis", "Dashboard Design"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "April 2025",
       category: "Data Analytics", 
       highlights: [
         "Genre trends analysis across Comedy, Animation, Documentary",
