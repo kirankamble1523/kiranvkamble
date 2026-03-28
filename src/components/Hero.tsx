@@ -5,7 +5,7 @@ import kiranPortrait from '@/assets/kiran-profile.png'
 import { useState, useEffect } from 'react'
 
 const Hero = () => {
-  const roles = ['WEB DEVELOPER', 'AI ENGINEER', 'DATA ANALYST', 'PYTHON DEVELOPER', 'ML ENGINEER']
+  const roles = ['AI ENGINEER', 'DATA ANALYST', 'PYTHON DEVELOPER', 'ML ENGINEER']
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0)
 
   useEffect(() => {
