@@ -27,6 +27,7 @@ const Portfolio = () => {
       technologies: ["Flask", "Python", "SQL", "HTML/CSS", "AI/ML", "CRUD Operations"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "January 2026",
       category: "Full-Stack Development",
       highlights: [
         "AI-powered task prioritization",
