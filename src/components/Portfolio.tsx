@@ -57,6 +57,7 @@ const Portfolio = () => {
       technologies: ["Python", "Flask", "NLP", "Scikit-learn", "TF-IDF", "Machine Learning", "HTML/CSS", "Text Processing"],
       github: "https://github.com/kirankamble1523/SentmentAnalysis",
       demo: "#",
+      date: "August 2025",
       category: "AI/ML Application",
       highlights: [
         "Multi-class sentiment classification (Positive, Negative, Neutral)",
