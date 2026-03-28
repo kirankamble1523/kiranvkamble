@@ -87,6 +87,7 @@ const Portfolio = () => {
       technologies: ["SQL", "Power BI", "Data Analysis", "Data Visualization", "ETL", "Dashboard Design"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "March 2025",
       category: "Data Analytics",
       highlights: [
         "Global pandemic data analysis",
