@@ -12,6 +12,7 @@ const Portfolio = () => {
       technologies: ["Python", "Streamlit", "OpenAI GPT-4o", "LangChain", "Computer Vision", "Generative AI"],
       github: "https://github.com/kirankamble1523/AI-Vision-Story-Lab/tree/main",
       demo: "#",
+      date: "March 2026",
       category: "AI/ML Application",
       highlights: [
         "GPT-4o Vision & LangChain for image understanding",
@@ -26,6 +27,7 @@ const Portfolio = () => {
       technologies: ["Flask", "Python", "SQL", "HTML/CSS", "AI/ML", "CRUD Operations"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "January 2026",
       category: "Full-Stack Development",
       highlights: [
         "AI-powered task prioritization",
@@ -40,6 +42,7 @@ const Portfolio = () => {
       technologies: ["Python", "SpeechRecognition", "Tkinter", "pyttsx3", "NLP", "Voice Processing"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "May 2025",
       category: "AI/ML Application",
       highlights: [
         "Real-time speech recognition",
@@ -54,6 +57,7 @@ const Portfolio = () => {
       technologies: ["Python", "Flask", "NLP", "Scikit-learn", "TF-IDF", "Machine Learning", "HTML/CSS", "Text Processing"],
       github: "https://github.com/kirankamble1523/SentmentAnalysis",
       demo: "#",
+      date: "August 2025",
       category: "AI/ML Application",
       highlights: [
         "Multi-class sentiment classification (Positive, Negative, Neutral)",
@@ -68,6 +72,7 @@ const Portfolio = () => {
       technologies: ["Python", "Random Forest", "Streamlit", "Machine Learning", "Data Science", "Pandas"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "December 2024",
       category: "Machine Learning",
       highlights: [
         "Random Forest ML model",
@@ -82,6 +87,7 @@ const Portfolio = () => {
       technologies: ["SQL", "Power BI", "Data Analysis", "Data Visualization", "ETL", "Dashboard Design"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "March 2025",
       category: "Data Analytics",
       highlights: [
         "Global pandemic data analysis",
@@ -96,6 +102,7 @@ const Portfolio = () => {
       technologies: ["SQL", "Power BI", "MySQL", "Data Analysis", "Data Visualization", "DAX", "Data Cleaning", "ETL"],
       github: "https://lnkd.in/d4AKydkH",
       demo: "https://lnkd.in/d4AKydkH",
+      date: "March 2025",
       category: "Data Analytics",
       highlights: [
         "Interactive Power BI dashboard with multiple visualizations",
@@ -110,6 +117,7 @@ const Portfolio = () => {
       technologies: ["Power BI", "Data Analysis", "Data Visualization", "Entertainment Analytics", "Trend Analysis", "Dashboard Design"],
       github: "https://github.com/kirankamble1523",
       demo: "#",
+      date: "April 2025",
       category: "Data Analytics", 
       highlights: [
         "Genre trends analysis across Comedy, Animation, Documentary",
@@ -151,9 +159,15 @@ const Portfolio = () => {
               <Card className="portfolio-card h-full flex flex-col border-l-4 border-l-primary">
                 <CardHeader>
                   <div className="flex justify-between items-start mb-4">
-                    <Badge variant="secondary" className="text-xs">
-                      {project.category}
-                    </Badge>
+                    <div className="flex items-center gap-2">
+                      <Badge variant="secondary" className="text-xs">
+                        {project.category}
+                      </Badge>
+                      <span className="text-xs text-muted-foreground flex items-center gap-1">
+                        <Calendar className="h-3 w-3" />
+                        {project.date}
+                      </span>
+                    </div>
                     <Button
                       size="sm"
                       variant="ghost"
