@@ -37,6 +37,36 @@ const Portfolio = () => {
       ]
     },
     {
+      title: "Trade Reconciliation & Exception Monitoring Platform",
+      description: "A scalable data reconciliation system processing 10K+ transactional records, detecting mismatches and ensuring data integrity. Features automated ETL pipelines and optimized SQL queries, reducing validation time by 25% and improving accuracy. Includes Power BI dashboards for real-time monitoring, exception tracking, and KPI-driven reporting.",
+      technologies: ["Python", "SQL", "Pandas", "Power BI"],
+      github: "https://github.com/kirankamble1523/Trade-Reconciliation-Exception-Monitoring-Platform",
+      demo: "#",
+      date: "February 2026",
+      category: "Data Analytics",
+      highlights: [
+        "Processing 10K+ transactional records with mismatch detection",
+        "Automated ETL pipelines reducing validation time by 25%",
+        "Optimized SQL queries for improved data accuracy",
+        "Real-time Power BI dashboards for exception tracking & KPIs"
+      ]
+    },
+    {
+      title: "Market Data Analytics & Risk Dashboard",
+      description: "A market data analytics system to process time-series financial data, enabling trend analysis, volatility tracking, and performance monitoring. Features ETL pipelines and optimized SQL queries improving data processing efficiency by 30%, along with automated dashboards and risk reporting tools for actionable insights.",
+      technologies: ["Python", "SQL", "Pandas", "NumPy", "Power BI", "Matplotlib"],
+      github: "https://github.com/kirankamble1523/Market-Data-Analytics-Risk-Dashboard",
+      demo: "#",
+      date: "March 2026",
+      category: "Data Analytics",
+      highlights: [
+        "Time-series financial data processing & trend analysis",
+        "Volatility tracking and performance monitoring",
+        "ETL pipelines improving processing efficiency by 30%",
+        "Automated risk reporting dashboards for decision-making"
+      ]
+    },
+    {
       title: "Voice-Enabled AI Assistant",
       description: "An intelligent desktop assistant built with Python that combines speech recognition, natural language processing, and text-to-speech capabilities. Designed specifically for academic assistance with voice commands and automated responses.",
       technologies: ["Python", "SpeechRecognition", "Tkinter", "pyttsx3", "NLP", "Voice Processing"],
@@ -124,36 +154,6 @@ const Portfolio = () => {
         "Content evolution tracking from 1960s to present",
         "Movies vs TV Shows distribution analysis",
         "Ratings breakdown for different age demographics"
-      ]
-    },
-    {
-      title: "Trade Reconciliation & Exception Monitoring Platform",
-      description: "A scalable data reconciliation system processing 10K+ transactional records, detecting mismatches and ensuring data integrity. Features automated ETL pipelines and optimized SQL queries, reducing validation time by 25% and improving accuracy. Includes Power BI dashboards for real-time monitoring, exception tracking, and KPI-driven reporting.",
-      technologies: ["Python", "SQL", "Pandas", "Power BI"],
-      github: "https://github.com/kirankamble1523/Trade-Reconciliation-Exception-Monitoring-Platform",
-      demo: "#",
-      date: "April 2025",
-      category: "Data Analytics",
-      highlights: [
-        "Processing 10K+ transactional records with mismatch detection",
-        "Automated ETL pipelines reducing validation time by 25%",
-        "Optimized SQL queries for improved data accuracy",
-        "Real-time Power BI dashboards for exception tracking & KPIs"
-      ]
-    },
-    {
-      title: "Market Data Analytics & Risk Dashboard",
-      description: "A market data analytics system to process time-series financial data, enabling trend analysis, volatility tracking, and performance monitoring. Features ETL pipelines and optimized SQL queries improving data processing efficiency by 30%, along with automated dashboards and risk reporting tools for actionable insights.",
-      technologies: ["Python", "SQL", "Pandas", "NumPy", "Power BI", "Matplotlib"],
-      github: "https://github.com/kirankamble1523/Market-Data-Analytics-Risk-Dashboard",
-      demo: "#",
-      date: "April 2025",
-      category: "Data Analytics",
-      highlights: [
-        "Time-series financial data processing & trend analysis",
-        "Volatility tracking and performance monitoring",
-        "ETL pipelines improving processing efficiency by 30%",
-        "Automated risk reporting dashboards for decision-making"
       ]
     }
   ]
