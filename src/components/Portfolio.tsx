@@ -37,6 +37,36 @@ const Portfolio = () => {
       ]
     },
     {
+      title: "Multi-LLM Router & Gateway",
+      description: "A unified LLM gateway that routes user prompts dynamically across multiple cloud-based (GPT-4o) and local models (LLaMA 3, DeepSeek via Ollama) through a single Flask REST API endpoint. Implemented intelligent prompt routing logic with fallback strategies — automatically switching to a backup model when the primary model fails — and monitored token usage per request for cost optimization.",
+      technologies: ["Python", "Flask", "LangChain", "OpenAI GPT-4o", "Ollama", "LLaMA 3", "DeepSeek", "Streamlit"],
+      github: "https://github.com/kirankamble1523",
+      demo: "#",
+      date: "March 2026",
+      category: "AI/ML Application",
+      highlights: [
+        "Unified Flask REST API gateway across cloud & local LLMs",
+        "Dynamic prompt routing across GPT-4o, LLaMA 3, DeepSeek",
+        "Intelligent fallback strategies for model failures",
+        "Per-request token usage monitoring for cost optimization"
+      ]
+    },
+    {
+      title: "Real-Time Object Detection with LLM Scene Understanding",
+      description: "A multimodal AI system combining YOLOv8 object detection with LLM-based natural language scene understanding — detected objects are passed as structured prompts to GPT-4o to generate human-readable scene descriptions in real time. Features semantic search over stored scene embeddings using ChromaDB, enabling natural language queries like 'find all scenes with people near vehicles' across processed image history. Designed as a modular vision-language pipeline with OpenCV-based frame preprocessing, bounding box extraction, dynamic prompt construction, and a Streamlit interactive interface.",
+      technologies: ["Python", "YOLOv8", "OpenCV", "LangChain", "OpenAI GPT-4o", "ChromaDB", "Streamlit"],
+      github: "https://github.com/kirankamble1523",
+      demo: "#",
+      date: "April 2026",
+      category: "AI/ML Application",
+      highlights: [
+        "YOLOv8 object detection fused with GPT-4o scene understanding",
+        "Real-time human-readable scene descriptions from detections",
+        "Semantic search over scene embeddings with ChromaDB",
+        "Modular vision-language pipeline with Streamlit interface"
+      ]
+    },
+    {
       title: "Trade Reconciliation & Exception Monitoring Platform",
       description: "A scalable data reconciliation system processing 10K+ transactional records, detecting mismatches and ensuring data integrity. Features automated ETL pipelines and optimized SQL queries, reducing validation time by 25% and improving accuracy. Includes Power BI dashboards for real-time monitoring, exception tracking, and KPI-driven reporting.",
       technologies: ["Python", "SQL", "Pandas", "Power BI"],
