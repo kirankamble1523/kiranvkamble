@@ -7,6 +7,22 @@ import { Badge } from '@/components/ui/badge'
 const Portfolio = () => {
   const projects = [
     {
+      title: "AI Powered Knowledge Assistant",
+      description: "A Retrieval-Augmented Generation (RAG) application designed to simplify access to organizational knowledge. Users can ask questions in natural language and receive accurate, context-aware answers backed by relevant document references. The system processes enterprise documents by extracting text, splitting into meaningful chunks, and converting them into vector embeddings stored in a FAISS vector database. When a user submits a question, the application retrieves the most relevant document sections using semantic similarity search and provides them as context to OpenAI GPT for concise, reliable answers with source citations.",
+      technologies: ["Python", "LangChain", "OpenAI GPT-4o", "OpenAI Embeddings", "FAISS", "Streamlit", "PyPDF", "Retrieval-Augmented Generation (RAG)", "Vector Search", "Prompt Engineering"],
+      github: "https://github.com/kirankamble1523",
+      demo: "#",
+      date: "May 2026",
+      category: "AI/ML Application",
+      highlights: [
+        "End-to-end RAG pipeline for enterprise document question answering",
+        "Document ingestion, text extraction, intelligent chunking, and metadata management",
+        "Vector embeddings with OpenAI Embeddings and FAISS semantic retrieval",
+        "Source citation to enhance answer transparency and minimize hallucinations",
+        "Interactive Streamlit interface for document upload and conversational Q&A"
+      ]
+    },
+    {
       title: "AI Vision Story Lab",
       description: "A Generative AI application leveraging GPT-4o Vision and LangChain for image understanding. Features a scalable Streamlit-based interactive web interface supporting real-time inference, multi-style content generation, and user-centric AI interaction. Engineered an end-to-end AI pipeline with image preprocessing, base64 encoding, prompt engineering, and structured JSON outputs.",
       technologies: ["Python", "Streamlit", "OpenAI GPT-4o", "LangChain", "Computer Vision", "Generative AI"],
